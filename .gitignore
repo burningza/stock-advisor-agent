@@ -2,5 +2,5 @@
 TXT.txt
 __pycache__/
 *.pyc
-Analysis.md
-Recommendation.md
+Analysis_*.md
+Recommendation_*.md
