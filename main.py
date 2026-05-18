@@ -7,7 +7,7 @@ from src.tasks import advise, analyse, get_company_financials, get_company_news
 from src.utils import timestamp
 
 # Stock symbol — change this to whatever you want to analyze
-STOCK = "AGL.JO"
+STOCK = "SOL.JO"
 
 # Date-time stamp for unique filenames
 ts = datetime.now().strftime("%Y%m%d_%H%M%S")

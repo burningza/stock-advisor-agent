@@ -1,5 +1,6 @@
 # Define Finance Tools
 import json
+import time
 
 import yfinance as yf
 from crewai.tools import tool
