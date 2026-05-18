@@ -25,7 +25,6 @@ analyse = Task(
     "Mention currency in ZAR (South African Rands) and consider commodity price context.",
     agent=analyst,
     context=[get_company_financials, get_company_news],
-    output_file="Analysis.md",
 )
 
 # Task to provide financial advice
@@ -36,5 +35,4 @@ advise = Task(
     "Response in Markdown format.",
     agent=fin_expert,
     context=[analyse],
-    output_file="Recommendation.md",
 )
