@@ -1,4 +1,6 @@
-__pycache__/
 .env
-Recommendation.md
+TXT.txt
+__pycache__/
+*.pyc
 Analysis.md
+Recommendation.md

@@ -15,8 +15,8 @@ crew = Crew(
     step_callback=timestamp,
 )
 
-# Run the crew with a specific stock
-result = crew.kickoff(inputs={"stock": "RELIANCE"})
+# Run the crew with a specific mining stock (JSE-listed)
+result = crew.kickoff(inputs={"stock": "AGL.JO"})
 
 # Print the final result
 print("Final Result:", result)
